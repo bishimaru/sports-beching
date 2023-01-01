@@ -1,0 +1,44 @@
+.ribbon {
+  width:100%;
+}
+.ribbon li{
+  height: 16px;
+  width: auto;
+}
+.ribbon li:nth-child(1) {
+  background-color: #19BC9B;
+}
+.ribbon li:nth-child(2) {
+  background-color: #E67E23;
+}
+.ribbon li:nth-child(3) {
+  background-color: #3498DA;
+}
+.ribbon li:nth-child(4) {
+  background-color: #E64B3C;
+}
+.ribbon li:nth-child(5) {
+  background-color: #9B59B6;
+}
+.ribbon li:nth-child(6) {
+  background-color: #F1C40E;
+}
+
+.navbar-header{
+  background-color: #FBFEFC;
+  border-bottom: solid;
+  border-color: #F6F6F6;
+}
+.header-title {
+  width: fit-content;
+  margin: auto;     
+  padding-top: 1.5rem;
+  padding-bottom: 0.5rem;
+}
+.header-description{
+  font-family: "Arial unicode ms";
+  width: fit-content;
+  margin: 0 auto;
+  padding-bottom: 1.5rem;
+
+}
