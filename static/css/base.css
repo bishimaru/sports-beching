@@ -23,7 +23,6 @@
 .ribbon li:nth-child(6) {
   background-color: #F1C40E;
 }
-
 .navbar-header{
   background-color: #FBFEFC;
   border-bottom: solid;
@@ -40,5 +39,34 @@
   width: fit-content;
   margin: 0 auto;
   padding-bottom: 1.5rem;
-
+}
+.nav-row{
+  display: flex;
+  justify-content: center;
+  width: auto;
+}
+.nav-row a{
+  text-decoration:none;
+}
+.nav-cols{
+  display: inline-block;
+  width: 100%;
+  color: #000000;
+}
+ .nav-cols:hover{
+  color:#000000;
+  text-underline-offset:1em;
+  border-bottom: 3px solid #0858A5;
+  margin: -3px; 
+} 
+.nav-cols div{
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  text-align: center;
+  border-left: dotted;
+  border-color: #BBBBBB;
+}
+.sb-contents{
+  margin-top: 2rem;
+  background-color: #F1F4F5;
 }
