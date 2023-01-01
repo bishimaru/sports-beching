@@ -70,3 +70,51 @@
   margin-top: 2rem;
   background-color: #F1F4F5;
 }
+.sb-content{
+  width: 100%;
+  display: inline-flex;
+  margin-top: 1rem;
+  background-color: white;
+}
+.sb-logo{
+  margin: 12px;
+}
+.sb-content-description{
+  width: 100%;
+  margin-top: 12px;
+}
+.sb-content-title{
+  
+}
+.sb-content-match{
+  width: 100%;
+  display: inline-flex;
+  justify-content: center;
+}
+.sb-content-opponent-a{
+  width: 40%;
+  text-align: right;
+  margin-right: 1rem;
+}
+.sb-content-opponent-b{
+  width: 40%;
+  margin-left: 1rem;
+}
+.odds-table{
+  width: 100%;
+}
+
+
+
+
+
+
+
+.sb-footer{
+  margin-top: 2rem;
+  background-color: #313B41;
+  color:white;
+}
+.sb-footer p{
+  text-align: center;
+}

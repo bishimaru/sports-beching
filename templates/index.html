@@ -3,8 +3,56 @@
 
 {% block main %}
 <div class="sb-contents"> 
-  <h1 class="text-primary">Hello world!</h1>
-  <img src="{% static 'admin/img/777.jpeg' %}" alt="777"> 
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <div class="sb-content">
+          <div class="sb-logo">
+            <img style="width:48px;" src="{% static '/img/sports_martial_arts.svg' %}" alt="格闘技">
+          </div>
+          <div class="sb-content-description">
+            <div class="sb-content-title">
+              <h1 class="text-primary">Hello world!</h1>
+            </div>
+            <div>
+              <p>2022/11/11:00:00</p>
+            </div>
+            <div class="sb-content-match">
+              <div class="sb-content-opponent-a">
+                もふもふ
+              </div>
+              <div>
+                VS
+              </div>
+              <div class="sb-content-opponent-b">
+                もふもふもふ
+              </div>
+            </div>
+            <div class="sb-content-odds">
+              <p>オッズ</p>
+              <table class="odds-table">
+                <tr>
+                  <th></th>
+                  <th>もふもふ</th>
+                  <th>もふもふもふ</th>
+                </tr>
+                <tr>
+                  <td>Beebet</td>
+                  <td>1.0</td>
+                  <td>2.0</td>
+                </tr>
+                <tr>
+                  <td>SportsBet</td>
+                  <td>1.4</td>
+                  <td>1.8</td>
+                </tr>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+  </div>
+  
 </div>
-
+{% include "footer.html" %}
 {% endblock %}
